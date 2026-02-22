@@ -56,3 +56,14 @@ const myPromise = new Promise((resolve, reject) => {
 myPromise
   .then(result => console.log(result))
   .catch(error => console.log(error));
+
+//async/await
+async function myFunction() {
+ try {
+ const result = await myPromise;
+ console.log(result);
+ } catch (error) {
+ console.log(error);
+ }
+}
+myFunction();
