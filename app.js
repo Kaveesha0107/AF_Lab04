@@ -16,6 +16,7 @@ fs.writeFile('file.txt', 'Hello World!', function (err) {
  console.log('File saved!');
 });*/
 
+<<<<<<< Updated upstream
 //web server
 const http = require('http');
 http.createServer(function (req, res) {
@@ -23,3 +24,6 @@ http.createServer(function (req, res) {
  res.write('Hello World!');
  res.end();
 }).listen(8085);
+=======
+//
+>>>>>>> Stashed changes
